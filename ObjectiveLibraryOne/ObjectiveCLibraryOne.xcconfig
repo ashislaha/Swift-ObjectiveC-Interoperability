@@ -1,0 +1,14 @@
+//
+//  ObjectiveCLibraryOne.xcconfig
+//  ObjectiveLibraryOne
+//
+//  Created by Ashis Laha on 24/11/19.
+//  Copyright © 2019 Ashis Laha. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+DEFINE_MODULES = YES
+
+//MODULEMAP_FILE = $(SOURCE_ROOT)/$(PRODUCT)
