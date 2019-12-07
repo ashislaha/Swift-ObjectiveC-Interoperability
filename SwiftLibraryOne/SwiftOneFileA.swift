@@ -8,6 +8,10 @@
 
 import Foundation
 
+/*
+    the class file must be "open" so that it will be added to SwiftLibararyOne-Swift.h header file
+    which will be used in Objective C file.
+ */
 @objc open class SwiftOneFileA: NSObject {
     
     @objc public func testOne() {

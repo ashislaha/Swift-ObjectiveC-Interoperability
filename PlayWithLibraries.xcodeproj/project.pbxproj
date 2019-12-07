@@ -23,7 +23,6 @@
 		55443863238FEDD500368F89 /* ObjectiveLibraryOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */; };
 		55443864238FEDE300368F89 /* ObjCOneFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; };
 		554438652390CC4E00368F89 /* ObjCOneFileA.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5560E7D02397B6C20055C628 /* SwiftInObjectiveCLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5560E7CF2397B6C20055C628 /* SwiftInObjectiveCLibrary.swift */; };
 		55990FA1238E264C002059F8 /* libObjectiveLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */; };
 		55990FA2238E2652002059F8 /* libSwiftLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF83A238AAEEC00982035 /* libSwiftLibraryOne.a */; };
 		55990FA5238E2B72002059F8 /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55990FA3238E2A1B002059F8 /* module.modulemap */; };
@@ -93,7 +92,7 @@
 		551EF86C238C1FED00982035 /* ObjCAppTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCAppTarget.h; sourceTree = "<group>"; };
 		551EF86D238C1FED00982035 /* ObjCAppTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCAppTarget.m; sourceTree = "<group>"; };
 		551EF870238C250F00982035 /* SwiftAppTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTarget.swift; sourceTree = "<group>"; };
-		5560E7CF2397B6C20055C628 /* SwiftInObjectiveCLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInObjectiveCLibrary.swift; sourceTree = "<group>"; };
+		55641F2C239B6D7D005A6722 /* SwiftLibraryOne-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftLibraryOne-Swift.h"; sourceTree = "<group>"; };
 		55990FA3238E2A1B002059F8 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +147,7 @@
 		551EF804238AA57100982035 /* PlayWithLibraries */ = {
 			isa = PBXGroup;
 			children = (
+				55641F2C239B6D7D005A6722 /* SwiftLibraryOne-Swift.h */,
 				551EF813238AA57300982035 /* Info.plist */,
 				551EF867238B7EDB00982035 /* PlayWithLibraries-Bridging-Header.h */,
 				551EF874238CB65700982035 /* Swift */,
@@ -183,7 +183,6 @@
 				551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */,
 				551EF860238AD4B200982035 /* ObjectiveCLibraryOne.xcconfig */,
 				55990FA3238E2A1B002059F8 /* module.modulemap */,
-				5560E7CF2397B6C20055C628 /* SwiftInObjectiveCLibrary.swift */,
 			);
 			path = ObjectiveLibraryOne;
 			sourceTree = "<group>";
@@ -378,7 +377,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				551EF85E238AD2A400982035 /* ObjCTwoFile.m in Sources */,
-				5560E7D02397B6C20055C628 /* SwiftInObjectiveCLibrary.swift in Sources */,
 				551EF85B238AD21200982035 /* ObjCOneFileA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
