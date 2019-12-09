@@ -31,6 +31,9 @@
  */
 @import ObjectiveLibraryOne;
 
+// MARK:- Import Swift Static Libaray Two (which internally depends on ObjectiveC static library)
+#import "SwiftStaticLibraryTwo-Swift.h"
+
 
 @implementation ObjCAppTarget
 
@@ -56,6 +59,14 @@
     NSLog(@"Invoke static Library Objective C function ::: caller App Target Objective C function ");
     ObjCOneFileA *obj = [[ObjCOneFileA alloc] init];
     [obj testObjective];
+}
+
+//MARK:- Swift static library two function
+-(void) testSwiftStaticLibraryTwo {
+    NSLog(@"Invoke Swift Static Library Two function");
+    SwiftStaticLibraryTwoFileA *obj = [[SwiftStaticLibraryTwoFileA alloc] init];
+    [obj test];
+    [obj callObjectiveCStaticLibrary];
 }
 
 

@@ -8,6 +8,7 @@
 
 #import "ObjCTwoFile.h"
 #import "ObjCOneFileA.h"
+//#import "SwiftStaticLibraryTwo-Swift.h"
 
 @implementation ObjCTwoFile
 
@@ -16,5 +17,10 @@
     ObjCOneFileA* obj = [[ObjCOneFileA alloc] init];
     [obj testObjective];
 }
+
+//-(void) testDependencySwiftLibrary {
+//    SwiftStaticLibraryTwoFileA *obj = [[SwiftStaticLibraryTwoFileA alloc] init];
+//    [obj test];
+//}
 
 @end

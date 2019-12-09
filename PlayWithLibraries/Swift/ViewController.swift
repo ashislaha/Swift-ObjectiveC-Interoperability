@@ -9,6 +9,7 @@
 import UIKit
 import SwiftLibraryOne
 import ObjectiveLibraryOne
+import SwiftStaticLibraryTwo
 
 class ViewController: UIViewController {
 
@@ -43,6 +44,12 @@ class ViewController: UIViewController {
         print("\n\nInvoke Static Library Objective C Function ::: caller - App Target Swift Function")
         let objcFile = ObjCOneFileA()
         objcFile.testObjective()
+        
+        // use swift static library Two: which internally calls Objective C static library
+        print("\n\nInvoke Swift Libaray Two function::: caller app target")
+        let obj = SwiftStaticLibraryTwoFileA()
+        obj.test()
+        obj.callObjectiveCStaticLibrary()
         
     }
 }
