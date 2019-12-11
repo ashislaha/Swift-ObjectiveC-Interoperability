@@ -66,7 +66,7 @@
     NSLog(@"Invoke Swift Static Library Two function");
     SwiftStaticLibraryTwoFileA *obj = [[SwiftStaticLibraryTwoFileA alloc] init];
     [obj test];
-    [obj callObjectiveCStaticLibrary];
+    [obj testObjectiveCStaticLibrary];
 }
 
 

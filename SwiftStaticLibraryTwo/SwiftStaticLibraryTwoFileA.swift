@@ -15,7 +15,8 @@ import ObjectiveLibraryOne
         print("SwiftStaticLibraryTwo FileA::: test function")
     }
     
-    @objc public func callObjectiveCStaticLibrary() {
+    @objc public func testObjectiveCStaticLibrary() {
+        print("This function calls Objective C static library")
         let obj = ObjCOneFileA()
         obj.testObjective()
     }

@@ -118,7 +118,6 @@
 		551EF86C238C1FED00982035 /* ObjCAppTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCAppTarget.h; sourceTree = "<group>"; };
 		551EF86D238C1FED00982035 /* ObjCAppTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCAppTarget.m; sourceTree = "<group>"; };
 		551EF870238C250F00982035 /* SwiftAppTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTarget.swift; sourceTree = "<group>"; };
-		55641F2C239B6D7D005A6722 /* SwiftLibraryOne-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftLibraryOne-Swift.h"; sourceTree = "<group>"; };
 		559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftStaticLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticLibraryTwoFileA.swift; sourceTree = "<group>"; };
 		55990FA3238E2A1B002059F8 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -186,7 +185,6 @@
 		551EF804238AA57100982035 /* PlayWithLibraries */ = {
 			isa = PBXGroup;
 			children = (
-				55641F2C239B6D7D005A6722 /* SwiftLibraryOne-Swift.h */,
 				551EF813238AA57300982035 /* Info.plist */,
 				551EF867238B7EDB00982035 /* PlayWithLibraries-Bridging-Header.h */,
 				551EF874238CB65700982035 /* Swift */,

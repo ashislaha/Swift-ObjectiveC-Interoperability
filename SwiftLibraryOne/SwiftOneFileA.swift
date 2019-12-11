@@ -17,9 +17,4 @@ import Foundation
     @objc public func testOne() {
         print("Swift One Library - File A - testOne function")
     }
-    
-    // consume Objective c code from different static library
-    @objc public func consumeObjectiveCFunctionFromOBJCLibraryOne() {
-        
-    }
 }

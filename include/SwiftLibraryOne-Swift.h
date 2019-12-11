@@ -203,7 +203,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC15SwiftLibraryOne13SwiftOneFileA")
 @interface SwiftOneFileA : NSObject
 - (void)testOne;
-- (void)consumeObjectiveCFunctionFromOBJCLibraryOne;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         print("\n\nInvoke Swift Libaray Two function::: caller app target")
         let obj = SwiftStaticLibraryTwoFileA()
         obj.test()
-        obj.callObjectiveCStaticLibrary()
+        obj.testObjectiveCStaticLibrary()
         
     }
 }
