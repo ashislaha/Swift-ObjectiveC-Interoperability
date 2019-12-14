@@ -25,6 +25,7 @@
 		554438652390CC4E00368F89 /* ObjCOneFileA.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		555EA17C23A50257003227E8 /* ObjCLibraryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 555EA17B23A50257003227E8 /* ObjCLibraryTwo.m */; };
 		555EA17D23A50257003227E8 /* ObjCLibraryTwo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 555EA17A23A50257003227E8 /* ObjCLibraryTwo.h */; };
+		555EA18A23A520E3003227E8 /* SwiftStaticLibraryThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555EA18923A520E3003227E8 /* SwiftStaticLibraryThree.swift */; };
 		559724B1239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */; };
 		559724B8239E9ACA00688A06 /* libObjectiveLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */; };
 		559724BB239E9D3700688A06 /* libSwiftStaticLibraryTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */; };
@@ -91,6 +92,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		555EA18523A520E3003227E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		559724A7239E8BD400688A06 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,6 +150,8 @@
 		555EA17823A50257003227E8 /* libObjCLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjCLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		555EA17A23A50257003227E8 /* ObjCLibraryTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCLibraryTwo.h; sourceTree = "<group>"; };
 		555EA17B23A50257003227E8 /* ObjCLibraryTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCLibraryTwo.m; sourceTree = "<group>"; };
+		555EA18723A520E3003227E8 /* libSwiftStaticLibraryThree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftStaticLibraryThree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		555EA18923A520E3003227E8 /* SwiftStaticLibraryThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticLibraryThree.swift; sourceTree = "<group>"; };
 		559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftStaticLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticLibraryTwoFileA.swift; sourceTree = "<group>"; };
 		55990FA3238E2A1B002059F8 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -177,6 +189,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		555EA18423A520E3003227E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		559724A6239E8BD400688A06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,6 +215,7 @@
 				551EF84E238AD07800982035 /* ObjectiveLibraryOne */,
 				559724AA239E8BD400688A06 /* SwiftStaticLibraryTwo */,
 				555EA17923A50257003227E8 /* ObjCLibraryTwo */,
+				555EA18823A520E3003227E8 /* SwiftStaticLibraryThree */,
 				551EF803238AA57100982035 /* Products */,
 				551EF846238AC37400982035 /* Frameworks */,
 			);
@@ -209,6 +229,7 @@
 				551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */,
 				559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */,
 				555EA17823A50257003227E8 /* libObjCLibraryTwo.a */,
+				555EA18723A520E3003227E8 /* libSwiftStaticLibraryThree.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,6 +313,14 @@
 				555EA17B23A50257003227E8 /* ObjCLibraryTwo.m */,
 			);
 			path = ObjCLibraryTwo;
+			sourceTree = "<group>";
+		};
+		555EA18823A520E3003227E8 /* SwiftStaticLibraryThree */ = {
+			isa = PBXGroup;
+			children = (
+				555EA18923A520E3003227E8 /* SwiftStaticLibraryThree.swift */,
+			);
+			path = SwiftStaticLibraryThree;
 			sourceTree = "<group>";
 		};
 		559724AA239E8BD400688A06 /* SwiftStaticLibraryTwo */ = {
@@ -401,6 +430,23 @@
 			productReference = 555EA17823A50257003227E8 /* libObjCLibraryTwo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555EA18B23A520E3003227E8 /* Build configuration list for PBXNativeTarget "SwiftStaticLibraryThree" */;
+			buildPhases = (
+				555EA18323A520E3003227E8 /* Sources */,
+				555EA18423A520E3003227E8 /* Frameworks */,
+				555EA18523A520E3003227E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftStaticLibraryThree;
+			productName = SwiftStaticLibraryThree;
+			productReference = 555EA18723A520E3003227E8 /* libSwiftStaticLibraryThree.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		559724A8239E8BD400688A06 /* SwiftStaticLibraryTwo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 559724AF239E8BD400688A06 /* Build configuration list for PBXNativeTarget "SwiftStaticLibraryTwo" */;
@@ -426,7 +472,7 @@
 		551EF7FA238AA57000982035 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Ashis Laha";
 				TargetAttributes = {
@@ -442,6 +488,9 @@
 						LastSwiftMigration = 1120;
 					};
 					555EA17723A50257003227E8 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					555EA18623A520E3003227E8 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 					559724A8239E8BD400688A06 = {
@@ -467,6 +516,7 @@
 				551EF84C238AD07800982035 /* ObjectiveLibraryOne */,
 				559724A8239E8BD400688A06 /* SwiftStaticLibraryTwo */,
 				555EA17723A50257003227E8 /* ObjCLibraryTwo */,
+				555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */,
 			);
 		};
 /* End PBXProject section */
@@ -573,6 +623,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				555EA17C23A50257003227E8 /* ObjCLibraryTwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555EA18323A520E3003227E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555EA18A23A520E3003227E8 /* SwiftStaticLibraryThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,6 +945,30 @@
 			};
 			name = Release;
 		};
+		555EA18C23A520E3003227E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555EA18D23A520E3003227E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		559724AD239E8BD400688A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -959,6 +1041,15 @@
 			buildConfigurations = (
 				555EA17F23A50257003227E8 /* Debug */,
 				555EA18023A50257003227E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555EA18B23A520E3003227E8 /* Build configuration list for PBXNativeTarget "SwiftStaticLibraryThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555EA18C23A520E3003227E8 /* Debug */,
+				555EA18D23A520E3003227E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
