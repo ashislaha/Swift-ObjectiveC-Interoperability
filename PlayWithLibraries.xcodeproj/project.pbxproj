@@ -27,6 +27,8 @@
 		555EA17D23A50257003227E8 /* ObjCLibraryTwo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 555EA17A23A50257003227E8 /* ObjCLibraryTwo.h */; };
 		555EA18A23A520E3003227E8 /* SwiftStaticLibraryThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555EA18923A520E3003227E8 /* SwiftStaticLibraryThree.swift */; };
 		555EA19523A52958003227E8 /* SwiftLibraryFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555EA19423A52958003227E8 /* SwiftLibraryFour.swift */; };
+		555EA1A423A52CE5003227E8 /* ObjCLibraryFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 555EA1A323A52CE5003227E8 /* ObjCLibraryFour.m */; };
+		555EA1A523A52CE5003227E8 /* ObjCLibraryFour.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 555EA1A223A52CE5003227E8 /* ObjCLibraryFour.h */; };
 		559724B1239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */; };
 		559724B8239E9ACA00688A06 /* libObjectiveLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */; };
 		559724BB239E9D3700688A06 /* libSwiftStaticLibraryTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */; };
@@ -44,6 +46,13 @@
 			remoteInfo = ObjectiveLibraryOne;
 		};
 		555EA19A23A52B3A003227E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555EA18623A520E3003227E8;
+			remoteInfo = SwiftStaticLibraryThree;
+		};
+		555EA1A923A52CF1003227E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
 			proxyType = 1;
@@ -109,6 +118,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		555EA19E23A52CE5003227E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				555EA1A523A52CE5003227E8 /* ObjCLibraryFour.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		559724A7239E8BD400688A06 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +181,9 @@
 		555EA18923A520E3003227E8 /* SwiftStaticLibraryThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticLibraryThree.swift; sourceTree = "<group>"; };
 		555EA19223A52958003227E8 /* libSwiftLibraryFour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftLibraryFour.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		555EA19423A52958003227E8 /* SwiftLibraryFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLibraryFour.swift; sourceTree = "<group>"; };
+		555EA1A023A52CE5003227E8 /* libObjCLibraryFour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjCLibraryFour.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		555EA1A223A52CE5003227E8 /* ObjCLibraryFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCLibraryFour.h; sourceTree = "<group>"; };
+		555EA1A323A52CE5003227E8 /* ObjCLibraryFour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCLibraryFour.m; sourceTree = "<group>"; };
 		559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftStaticLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticLibraryTwoFileA.swift; sourceTree = "<group>"; };
 		55990FA3238E2A1B002059F8 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -206,6 +228,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		555EA19D23A52CE5003227E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		559724A6239E8BD400688A06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +256,7 @@
 				555EA17923A50257003227E8 /* ObjCLibraryTwo */,
 				555EA18823A520E3003227E8 /* SwiftStaticLibraryThree */,
 				555EA19323A52958003227E8 /* SwiftLibraryFour */,
+				555EA1A123A52CE5003227E8 /* ObjCLibraryFour */,
 				551EF803238AA57100982035 /* Products */,
 				551EF846238AC37400982035 /* Frameworks */,
 			);
@@ -242,6 +272,7 @@
 				555EA17823A50257003227E8 /* libObjCLibraryTwo.a */,
 				555EA18723A520E3003227E8 /* libSwiftStaticLibraryThree.a */,
 				555EA19223A52958003227E8 /* libSwiftLibraryFour.a */,
+				555EA1A023A52CE5003227E8 /* libObjCLibraryFour.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -341,6 +372,15 @@
 				555EA19423A52958003227E8 /* SwiftLibraryFour.swift */,
 			);
 			path = SwiftLibraryFour;
+			sourceTree = "<group>";
+		};
+		555EA1A123A52CE5003227E8 /* ObjCLibraryFour */ = {
+			isa = PBXGroup;
+			children = (
+				555EA1A223A52CE5003227E8 /* ObjCLibraryFour.h */,
+				555EA1A323A52CE5003227E8 /* ObjCLibraryFour.m */,
+			);
+			path = ObjCLibraryFour;
 			sourceTree = "<group>";
 		};
 		559724AA239E8BD400688A06 /* SwiftStaticLibraryTwo */ = {
@@ -484,6 +524,24 @@
 			productReference = 555EA19223A52958003227E8 /* libSwiftLibraryFour.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		555EA19F23A52CE5003227E8 /* ObjCLibraryFour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555EA1A623A52CE5003227E8 /* Build configuration list for PBXNativeTarget "ObjCLibraryFour" */;
+			buildPhases = (
+				555EA19C23A52CE5003227E8 /* Sources */,
+				555EA19D23A52CE5003227E8 /* Frameworks */,
+				555EA19E23A52CE5003227E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555EA1AA23A52CF1003227E8 /* PBXTargetDependency */,
+			);
+			name = ObjCLibraryFour;
+			productName = ObjCLibraryFour;
+			productReference = 555EA1A023A52CE5003227E8 /* libObjCLibraryFour.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		559724A8239E8BD400688A06 /* SwiftStaticLibraryTwo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 559724AF239E8BD400688A06 /* Build configuration list for PBXNativeTarget "SwiftStaticLibraryTwo" */;
@@ -533,6 +591,9 @@
 					555EA19123A52958003227E8 = {
 						CreatedOnToolsVersion = 11.3;
 					};
+					555EA19F23A52CE5003227E8 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					559724A8239E8BD400688A06 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -558,6 +619,7 @@
 				555EA17723A50257003227E8 /* ObjCLibraryTwo */,
 				555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */,
 				555EA19123A52958003227E8 /* SwiftLibraryFour */,
+				555EA19F23A52CE5003227E8 /* ObjCLibraryFour */,
 			);
 		};
 /* End PBXProject section */
@@ -700,6 +762,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		555EA19C23A52CE5003227E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555EA1A423A52CE5003227E8 /* ObjCLibraryFour.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		559724A5239E8BD400688A06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -720,6 +790,11 @@
 			isa = PBXTargetDependency;
 			target = 555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */;
 			targetProxy = 555EA19A23A52B3A003227E8 /* PBXContainerItemProxy */;
+		};
+		555EA1AA23A52CF1003227E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */;
+			targetProxy = 555EA1A923A52CF1003227E8 /* PBXContainerItemProxy */;
 		};
 		559724B7239E9A7D00688A06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1064,6 +1139,30 @@
 			};
 			name = Release;
 		};
+		555EA1A723A52CE5003227E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555EA1A823A52CE5003227E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		559724AD239E8BD400688A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1154,6 +1253,15 @@
 			buildConfigurations = (
 				555EA19723A52958003227E8 /* Debug */,
 				555EA19823A52958003227E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555EA1A623A52CE5003227E8 /* Build configuration list for PBXNativeTarget "ObjCLibraryFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555EA1A723A52CE5003227E8 /* Debug */,
+				555EA1A823A52CE5003227E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
