@@ -23,6 +23,8 @@
 		55443863238FEDD500368F89 /* ObjectiveLibraryOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */; };
 		55443864238FEDE300368F89 /* ObjCOneFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; };
 		554438652390CC4E00368F89 /* ObjCOneFileA.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555EA17C23A50257003227E8 /* ObjCLibraryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 555EA17B23A50257003227E8 /* ObjCLibraryTwo.m */; };
+		555EA17D23A50257003227E8 /* ObjCLibraryTwo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 555EA17A23A50257003227E8 /* ObjCLibraryTwo.h */; };
 		559724B1239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */; };
 		559724B8239E9ACA00688A06 /* libObjectiveLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */; };
 		559724BB239E9D3700688A06 /* libSwiftStaticLibraryTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */; };
@@ -32,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		555EA18123A5027F003227E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551EF84C238AD07800982035;
+			remoteInfo = ObjectiveLibraryOne;
+		};
 		559724B6239E9A7D00688A06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
@@ -69,6 +78,16 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555EA17623A50257003227E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				555EA17D23A50257003227E8 /* ObjCLibraryTwo.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +137,9 @@
 		551EF86C238C1FED00982035 /* ObjCAppTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCAppTarget.h; sourceTree = "<group>"; };
 		551EF86D238C1FED00982035 /* ObjCAppTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCAppTarget.m; sourceTree = "<group>"; };
 		551EF870238C250F00982035 /* SwiftAppTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTarget.swift; sourceTree = "<group>"; };
+		555EA17823A50257003227E8 /* libObjCLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjCLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		555EA17A23A50257003227E8 /* ObjCLibraryTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCLibraryTwo.h; sourceTree = "<group>"; };
+		555EA17B23A50257003227E8 /* ObjCLibraryTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCLibraryTwo.m; sourceTree = "<group>"; };
 		559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftStaticLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticLibraryTwoFileA.swift; sourceTree = "<group>"; };
 		55990FA3238E2A1B002059F8 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -148,6 +170,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		555EA17523A50257003227E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		559724A6239E8BD400688A06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,6 +195,7 @@
 				551EF83B238AAEEC00982035 /* SwiftLibraryOne */,
 				551EF84E238AD07800982035 /* ObjectiveLibraryOne */,
 				559724AA239E8BD400688A06 /* SwiftStaticLibraryTwo */,
+				555EA17923A50257003227E8 /* ObjCLibraryTwo */,
 				551EF803238AA57100982035 /* Products */,
 				551EF846238AC37400982035 /* Frameworks */,
 			);
@@ -178,6 +208,7 @@
 				551EF83A238AAEEC00982035 /* libSwiftLibraryOne.a */,
 				551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */,
 				559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */,
+				555EA17823A50257003227E8 /* libObjCLibraryTwo.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,6 +283,15 @@
 				551EF809238AA57100982035 /* ViewController.swift */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		555EA17923A50257003227E8 /* ObjCLibraryTwo */ = {
+			isa = PBXGroup;
+			children = (
+				555EA17A23A50257003227E8 /* ObjCLibraryTwo.h */,
+				555EA17B23A50257003227E8 /* ObjCLibraryTwo.m */,
+			);
+			path = ObjCLibraryTwo;
 			sourceTree = "<group>";
 		};
 		559724AA239E8BD400688A06 /* SwiftStaticLibraryTwo */ = {
@@ -343,6 +383,24 @@
 			productReference = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		555EA17723A50257003227E8 /* ObjCLibraryTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555EA17E23A50257003227E8 /* Build configuration list for PBXNativeTarget "ObjCLibraryTwo" */;
+			buildPhases = (
+				555EA17423A50257003227E8 /* Sources */,
+				555EA17523A50257003227E8 /* Frameworks */,
+				555EA17623A50257003227E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555EA18223A5027F003227E8 /* PBXTargetDependency */,
+			);
+			name = ObjCLibraryTwo;
+			productName = ObjCLibraryTwo;
+			productReference = 555EA17823A50257003227E8 /* libObjCLibraryTwo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		559724A8239E8BD400688A06 /* SwiftStaticLibraryTwo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 559724AF239E8BD400688A06 /* Build configuration list for PBXNativeTarget "SwiftStaticLibraryTwo" */;
@@ -383,6 +441,9 @@
 						CreatedOnToolsVersion = 11.2.1;
 						LastSwiftMigration = 1120;
 					};
+					555EA17723A50257003227E8 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					559724A8239E8BD400688A06 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -405,6 +466,7 @@
 				551EF839238AAEEC00982035 /* SwiftLibraryOne */,
 				551EF84C238AD07800982035 /* ObjectiveLibraryOne */,
 				559724A8239E8BD400688A06 /* SwiftStaticLibraryTwo */,
+				555EA17723A50257003227E8 /* ObjCLibraryTwo */,
 			);
 		};
 /* End PBXProject section */
@@ -506,6 +568,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		555EA17423A50257003227E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555EA17C23A50257003227E8 /* ObjCLibraryTwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		559724A5239E8BD400688A06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -517,6 +587,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		555EA18223A5027F003227E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551EF84C238AD07800982035 /* ObjectiveLibraryOne */;
+			targetProxy = 555EA18123A5027F003227E8 /* PBXContainerItemProxy */;
+		};
 		559724B7239E9A7D00688A06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 551EF84C238AD07800982035 /* ObjectiveLibraryOne */;
@@ -790,6 +865,28 @@
 			};
 			name = Release;
 		};
+		555EA17F23A50257003227E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555EA18023A50257003227E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		559724AD239E8BD400688A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -853,6 +950,15 @@
 			buildConfigurations = (
 				551EF854238AD07800982035 /* Debug */,
 				551EF855238AD07800982035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555EA17E23A50257003227E8 /* Build configuration list for PBXNativeTarget "ObjCLibraryTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555EA17F23A50257003227E8 /* Debug */,
+				555EA18023A50257003227E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
