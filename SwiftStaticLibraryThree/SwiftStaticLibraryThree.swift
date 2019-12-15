@@ -6,13 +6,12 @@
 //  Copyright © 2019 Ashis Laha. All rights reserved.
 //
 
-/*
-    SwiftStaticLibraryThree is an independent library which did some arthemetic operations.
- 
- */
-
 import UIKit
+// This below '///' refers the swiftdoc
 
+/// SwiftStaticLibraryThree
+/// SwiftStaticLibraryThree is an independent library which did some arthemetic operations.
+///
 @objc open class SwiftStaticLibraryThree: NSObject {
     
     @objc open func add(a: Int, b: Int) -> Int {

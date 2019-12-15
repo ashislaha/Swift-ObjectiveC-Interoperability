@@ -200,6 +200,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+/// SwiftStaticLibraryThree
+/// SwiftStaticLibraryThree is an independent library which did some arthemetic operations.
 SWIFT_CLASS("_TtC23SwiftStaticLibraryThree23SwiftStaticLibraryThree")
 @interface SwiftStaticLibraryThree : NSObject
 - (NSInteger)addWithA:(NSInteger)a b:(NSInteger)b SWIFT_WARN_UNUSED_RESULT;
