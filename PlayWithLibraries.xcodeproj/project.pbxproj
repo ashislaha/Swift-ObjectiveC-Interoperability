@@ -65,6 +65,20 @@
 			remoteGlobalIDString = 555EA18623A520E3003227E8;
 			remoteInfo = SwiftStaticLibraryThree;
 		};
+		55929B0623B096AC0043C6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558AC0BF23AC6142005FD5B7;
+			remoteInfo = MixLibraryOne;
+		};
+		55929B0823B096D10043C6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558AC0BF23AC6142005FD5B7;
+			remoteInfo = MixLibraryOne;
+		};
 		559724B6239E9A7D00688A06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
@@ -142,15 +156,6 @@
 			files = (
 				558AC0D323ACACB4005FD5B7 /* MixLibOneObjcFileA.h in CopyFiles */,
 				558AC0D223ACACAA005FD5B7 /* module.modulemap in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55929AEC23AF9E210043C6A9 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,20 +288,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		558AC0BD23AC6142005FD5B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55929AEB23AF9E210043C6A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55929AF623B055840043C6A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -650,8 +641,8 @@
 			buildConfigurationList = 558AC0C823AC6142005FD5B7 /* Build configuration list for PBXNativeTarget "MixLibraryOne" */;
 			buildPhases = (
 				558AC0BC23AC6142005FD5B7 /* Sources */,
-				558AC0BD23AC6142005FD5B7 /* Frameworks */,
 				558AC0BE23AC6142005FD5B7 /* CopyFiles */,
+				558AC0BD23AC6142005FD5B7 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -667,12 +658,11 @@
 			buildConfigurationList = 55929AF423AF9E210043C6A9 /* Build configuration list for PBXNativeTarget "MixLibraryTwo" */;
 			buildPhases = (
 				55929AEA23AF9E210043C6A9 /* Sources */,
-				55929AEB23AF9E210043C6A9 /* Frameworks */,
-				55929AEC23AF9E210043C6A9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				55929B0723B096AC0043C6A9 /* PBXTargetDependency */,
 			);
 			name = MixLibraryTwo;
 			productName = MixLibraryTwo;
@@ -684,12 +674,12 @@
 			buildConfigurationList = 55929AFF23B055840043C6A9 /* Build configuration list for PBXNativeTarget "MixLibraryThree" */;
 			buildPhases = (
 				55929AF523B055840043C6A9 /* Sources */,
-				55929AF623B055840043C6A9 /* Frameworks */,
 				55929AF723B055840043C6A9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				55929B0923B096D10043C6A9 /* PBXTargetDependency */,
 			);
 			name = MixLibraryThree;
 			productName = MixLibraryThree;
@@ -986,6 +976,16 @@
 			isa = PBXTargetDependency;
 			target = 555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */;
 			targetProxy = 555EA1A923A52CF1003227E8 /* PBXContainerItemProxy */;
+		};
+		55929B0723B096AC0043C6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558AC0BF23AC6142005FD5B7 /* MixLibraryOne */;
+			targetProxy = 55929B0623B096AC0043C6A9 /* PBXContainerItemProxy */;
+		};
+		55929B0923B096D10043C6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558AC0BF23AC6142005FD5B7 /* MixLibraryOne */;
+			targetProxy = 55929B0823B096D10043C6A9 /* PBXContainerItemProxy */;
 		};
 		559724B7239E9A7D00688A06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
