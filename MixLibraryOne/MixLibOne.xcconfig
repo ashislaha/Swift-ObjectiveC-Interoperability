@@ -1,0 +1,22 @@
+//
+//  MixLibOne.xcconfig
+//  MixLibraryOne
+//
+//  Created by Ashis Laha on 20/12/19.
+//  Copyright © 2019 Ashis Laha. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+DEFINES_MODULE = YES
+MODULEMAP_FILE = $(SRCROOT)/MixLibraryOne/module.modulemap
+// PRODUCT_NAME = MixLibOne_iOS
+PRODUCT_MODULE_NAME = MixLibraryOne
+SWIFT_OBJC_INTERFACE_HEADER_NAME = MixLibOne-Swift.h
+
+// The project's user header search path includes CocoaUI's iOS public
+// directory which contains a module.modulemap file defining CocoaUI.
+// This flag instructs the Swift compiler to implicitly import the clang module
+// as part of the definition of the whole module.
+OTHER_SWIFT_FLAGS = $(inherited) -import-underlying-module
