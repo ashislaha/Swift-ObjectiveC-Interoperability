@@ -10,14 +10,27 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 
+// search the headers and modulemap files from "User header search path"
+USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/MixLibraryOne
+
+// allow modularisation to that static library
 DEFINES_MODULE = YES
+
+// refer the modulemap file from this place
 MODULEMAP_FILE = $(SRCROOT)/MixLibraryOne/module.modulemap
-// PRODUCT_NAME = MixLibOne_iOS
+
+// Product module name should be same inside modulemap file to map the respective headers
 PRODUCT_MODULE_NAME = MixLibraryOne
+
+// define the objective c interface for swift files
 SWIFT_OBJC_INTERFACE_HEADER_NAME = MixLibOne-Swift.h
 
-// The project's user header search path includes CocoaUI's iOS public
-// directory which contains a module.modulemap file defining CocoaUI.
+
+// The project's user header search path includes MixLibraryOne's iOS public
+// directory which contains a module.modulemap file defining MixLibraryOne.
 // This flag instructs the Swift compiler to implicitly import the clang module
 // as part of the definition of the whole module.
+
+// One important error handling: <unknown>:0: error: underlying Objective-C module 'MixLibraryOne' not found
+// project level configuration overrides the target level configuration and you will get the above error. Delete the project level configuration and it will work fine. See, it will be shown in bold in build settings, delete those bold configuration ( here MODULEMAP_FILE & USER_HEADER_SEARCH_PATHS specifically)
 OTHER_SWIFT_FLAGS = $(inherited) -import-underlying-module

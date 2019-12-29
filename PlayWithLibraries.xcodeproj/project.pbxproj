@@ -20,6 +20,7 @@
 		551EF866238AD68900982035 /* ObjCTwoFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF85C238AD2A400982035 /* ObjCTwoFile.h */; };
 		551EF86E238C1FED00982035 /* ObjCAppTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 551EF86D238C1FED00982035 /* ObjCAppTarget.m */; };
 		551EF871238C250F00982035 /* SwiftAppTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF870238C250F00982035 /* SwiftAppTarget.swift */; };
+		553B378C23B5D6D2008CE1C0 /* MixLibOneSwiftOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AC0D023ACA7EC005FD5B7 /* MixLibOneSwiftOne.swift */; };
 		55443863238FEDD500368F89 /* ObjectiveLibraryOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */; };
 		55443864238FEDE300368F89 /* ObjCOneFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; };
 		554438652390CC4E00368F89 /* ObjCOneFileA.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,7 +31,6 @@
 		555EA1A423A52CE5003227E8 /* ObjCLibraryFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 555EA1A323A52CE5003227E8 /* ObjCLibraryFour.m */; };
 		555EA1A523A52CE5003227E8 /* ObjCLibraryFour.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 555EA1A223A52CE5003227E8 /* ObjCLibraryFour.h */; };
 		558AC0CF23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 558AC0CE23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m */; };
-		558AC0D223ACACAA005FD5B7 /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 558AC0CB23AC7DA8005FD5B7 /* module.modulemap */; };
 		558AC0D323ACACB4005FD5B7 /* MixLibOneObjcFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 558AC0CD23ACA4C0005FD5B7 /* MixLibOneObjcFileA.h */; };
 		55929AF123AF9E210043C6A9 /* MixLibraryTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55929AF023AF9E210043C6A9 /* MixLibraryTwo.swift */; };
 		55929AFD23B055840043C6A9 /* MixLibraryThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 55929AFC23B055840043C6A9 /* MixLibraryThree.m */; };
@@ -155,7 +155,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				558AC0D323ACACB4005FD5B7 /* MixLibOneObjcFileA.h in CopyFiles */,
-				558AC0D223ACACAA005FD5B7 /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,8 +639,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558AC0C823AC6142005FD5B7 /* Build configuration list for PBXNativeTarget "MixLibraryOne" */;
 			buildPhases = (
-				558AC0BC23AC6142005FD5B7 /* Sources */,
 				558AC0BE23AC6142005FD5B7 /* CopyFiles */,
+				558AC0BC23AC6142005FD5B7 /* Sources */,
 				558AC0BD23AC6142005FD5B7 /* Frameworks */,
 			);
 			buildRules = (
@@ -931,6 +930,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553B378C23B5D6D2008CE1C0 /* MixLibOneSwiftOne.swift in Sources */,
 				558AC0CF23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1365,14 +1365,12 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/MixLibraryOne/module.modulemap";
 			};
 			name = Debug;
 		};
@@ -1387,13 +1385,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/MixLibraryOne/module.modulemap";
 			};
 			name = Release;
 		};
@@ -1406,6 +1402,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/MixLibraryOne",
+				);
 			};
 			name = Debug;
 		};
@@ -1418,6 +1418,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/MixLibraryOne",
+				);
 			};
 			name = Release;
 		};
@@ -1429,6 +1433,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/MixLibraryOne",
+				);
 			};
 			name = Debug;
 		};
@@ -1440,6 +1448,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/MixLibraryOne",
+				);
 			};
 			name = Release;
 		};
