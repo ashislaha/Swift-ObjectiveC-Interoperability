@@ -30,6 +30,8 @@
 		555EA19523A52958003227E8 /* SwiftLibraryFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555EA19423A52958003227E8 /* SwiftLibraryFour.swift */; };
 		555EA1A423A52CE5003227E8 /* ObjCLibraryFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 555EA1A323A52CE5003227E8 /* ObjCLibraryFour.m */; };
 		555EA1A523A52CE5003227E8 /* ObjCLibraryFour.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 555EA1A223A52CE5003227E8 /* ObjCLibraryFour.h */; };
+		5586F3F023B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */; };
+		5586F3F123B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */; };
 		558AC0CF23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 558AC0CE23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m */; };
 		558AC0D323ACACB4005FD5B7 /* MixLibOneObjcFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 558AC0CD23ACA4C0005FD5B7 /* MixLibOneObjcFileA.h */; };
 		55929AF123AF9E210043C6A9 /* MixLibraryTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55929AF023AF9E210043C6A9 /* MixLibraryTwo.swift */; };
@@ -224,6 +226,8 @@
 		555EA1A023A52CE5003227E8 /* libObjCLibraryFour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjCLibraryFour.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		555EA1A223A52CE5003227E8 /* ObjCLibraryFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCLibraryFour.h; sourceTree = "<group>"; };
 		555EA1A323A52CE5003227E8 /* ObjCLibraryFour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCLibraryFour.m; sourceTree = "<group>"; };
+		5586F3EE23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibraryTwoObjCFileA.h; sourceTree = "<group>"; };
+		5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibraryTwoObjCFileA.m; sourceTree = "<group>"; };
 		558AC0C023AC6142005FD5B7 /* libMixLibraryOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixLibraryOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		558AC0CA23AC7D19005FD5B7 /* MixLibOne.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MixLibOne.xcconfig; sourceTree = "<group>"; };
 		558AC0CB23AC7DA8005FD5B7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -463,6 +467,8 @@
 			isa = PBXGroup;
 			children = (
 				55929AF023AF9E210043C6A9 /* MixLibraryTwo.swift */,
+				5586F3EE23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.h */,
+				5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */,
 			);
 			path = MixLibraryTwo;
 			sourceTree = "<group>";
@@ -642,6 +648,7 @@
 				558AC0BE23AC6142005FD5B7 /* CopyFiles */,
 				558AC0BC23AC6142005FD5B7 /* Sources */,
 				558AC0BD23AC6142005FD5B7 /* Frameworks */,
+				5586F3F223B8FA1D00AFD5E4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -743,12 +750,14 @@
 					};
 					55929AED23AF9E210043C6A9 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					55929AF823B055840043C6A9 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 					559724A8239E8BD400688A06 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -845,6 +854,23 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n";
 		};
+		5586F3F223B8FA1D00AFD5E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n";
+		};
 		559724B5239E8F1700688A06 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -940,6 +966,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55929AF123AF9E210043C6A9 /* MixLibraryTwo.swift in Sources */,
+				5586F3F123B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,6 +983,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				559724B1239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift in Sources */,
+				5586F3F023B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1396,10 +1424,18 @@
 		55929AF223AF9E210043C6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/include/";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = (
@@ -1412,7 +1448,14 @@
 		55929AF323AF9E210043C6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/include/";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1458,12 +1501,19 @@
 		559724AD239E8BD400688A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = NO;
 				HEADER_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1472,9 +1522,15 @@
 		559724AE239E8BD400688A06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = NO;
 				HEADER_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
