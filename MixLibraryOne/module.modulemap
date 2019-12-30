@@ -2,3 +2,8 @@ module MixLibraryOne {
     header "MixLibOneObjcFileA.h"
     requires ios
 }
+
+module MixLibThree {
+    header "../MixLibraryThree/MixLibraryThree.h"
+    requires ios
+}

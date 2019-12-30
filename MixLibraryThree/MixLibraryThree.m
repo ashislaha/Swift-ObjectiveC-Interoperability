@@ -7,7 +7,9 @@
 //
 
 #import "MixLibraryThree.h"
-
+/*
+    using objective c classes of Mix Library One. import the module which is defined inside the modulemap.
+ */
 @import MixLibraryOne;
 
 @implementation MixLibraryThree
@@ -15,6 +17,10 @@
 -(void) testMixLibThree {
     MixLibOneObjcFileA *obj = [[MixLibOneObjcFileA alloc] init];
     [obj test];
+}
+
+-(void) exposedMethod {
+    NSLog(@"this is exposed by Mix Library Three");
 }
 
 @end

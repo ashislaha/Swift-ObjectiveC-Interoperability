@@ -10,8 +10,8 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 
-// search the headers and modulemap files from "User header search path"
-USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/MixLibraryOne
+// search the objecitve c headers & swift generated header files from "User header search path"
+USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/MixLibraryOne $(SRCROOT)/include
 
 // allow modularisation to that static library
 DEFINES_MODULE = YES

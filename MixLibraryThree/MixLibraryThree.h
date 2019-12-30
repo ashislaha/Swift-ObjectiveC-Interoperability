@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface MixLibraryThree : NSObject
-
+-(void) exposedMethod;
 @end

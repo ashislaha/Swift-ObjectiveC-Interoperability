@@ -18,6 +18,12 @@
  */
 #import "MixLibOne-Swift.h"
 
+/*
+    access MixLibThree methods (through modulemap)
+ */
+
+@import MixLibThree;
+
 @implementation MixLibraryTwoObjCFileA
 
 -(void) testInMixLibraryTwo {
@@ -29,6 +35,10 @@
     // use of swift classes
     MixLibOneSwiftOne *obj2 = [[MixLibOneSwiftOne alloc] init];
     [obj2 test];
+    
+    // use objc class of MixLibraryThree
+    MixLibraryThree *obj3 = [[MixLibraryThree alloc] init];
+    [obj3 exposedMethod];
 }
 
 @end
