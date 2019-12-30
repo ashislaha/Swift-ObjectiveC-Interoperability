@@ -869,7 +869,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n";
+			shellScript = "# target mode\nDEVICE_OS=\"iphoneos\"\nDEVICE_SIMULATOR=\"iphonesimulator\"\n\n# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\ntarget_simulator_dir=${target_dir}/${DEVICE_SIMULATOR}/\ntarget_device_dir=${target_dir}/${DEVICE_OS}/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\nmkdir -p ${target_simulator_dir}\nmkdir -p ${target_device_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n\n# Copy Swift modules from iphonesimulator build (if it exists) to the copied target directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PRODUCT_MODULE_NAME}.swiftmodule\"\n\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\n    cp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${target_simulator_dir}\"\nfi\n\n# copy swift modules from iPhones device build (if it exists) to the copied target directory\nDEVICE_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PRODUCT_MODULE_NAME}.swiftmodule\"\n\nif [ -d \"${DEVICE_SWIFT_MODULES_DIR}\" ]; then\n    cp -R \"${DEVICE_SWIFT_MODULES_DIR}\" \"${target_device_dir}\"\nfi\n\n";
 		};
 		559724B5239E8F1700688A06 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
