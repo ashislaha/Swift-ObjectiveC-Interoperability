@@ -1,0 +1,14 @@
+//
+//  MixLibTwo.xcconfig
+//  MixLibraryTwo
+//
+//  Created by Ashis Laha on 30/12/19.
+//  Copyright © 2019 Ashis Laha. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// search the objecitve c headers & swift generated header files from "User header search path"
+USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/Modules $(SRCROOT)/include
+

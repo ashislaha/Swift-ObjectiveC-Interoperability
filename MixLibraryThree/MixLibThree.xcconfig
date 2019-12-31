@@ -10,16 +10,16 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 
+// Product module name should be same inside modulemap file to map the respective headers
+PRODUCT_MODULE_NAME = MixLibThree
+
+
 // search the objecitve c headers & swift generated header files from "User header search path"
 // we can skip "copy files" step in "build phases" by providing the proper location of dependent (if both target belongs to same project) of user header search path
-USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/MixLibraryOne $(SRCROOT)/include
+USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/Modules $(SRCROOT)/include
 
 // allow modularisation to that static library
 DEFINES_MODULE = YES
 
 // refer the modulemap file from Mix LibraryOne - // TODO: we can separate this out from MixLibraryOne 
-MODULEMAP_FILE = $(SRCROOT)/MixLibraryOne/module.modulemap
-
-
-// Product module name should be same inside modulemap file to map the respective headers
-PRODUCT_MODULE_NAME = MixLibThree
+MODULEMAP_FILE = $(SRCROOT)/Modules/module.modulemap

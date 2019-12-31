@@ -31,11 +31,11 @@
     // use of objective c classes
     MixLibOneObjcFileA *obj = [[MixLibOneObjcFileA alloc] init];
     [obj test];
-    
+
     // use of swift classes
     MixLibOneSwiftOne *obj2 = [[MixLibOneSwiftOne alloc] init];
     [obj2 test];
-    
+
     // use objc class of MixLibraryThree
     MixLibraryThree *obj3 = [[MixLibraryThree alloc] init];
     [obj3 exposedMethod];

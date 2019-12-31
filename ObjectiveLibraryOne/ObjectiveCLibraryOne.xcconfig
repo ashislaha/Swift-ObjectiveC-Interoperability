@@ -10,5 +10,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 DEFINE_MODULES = YES
-
-//MODULEMAP_FILE = $(SOURCE_ROOT)/$(PRODUCT)
+MODULEMAP_FILE = $(SRCROOT)/Modules/module.modulemap

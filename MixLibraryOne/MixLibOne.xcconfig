@@ -10,17 +10,17 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 
-// search the objecitve c headers & swift generated header files from "User header search path"
-USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/MixLibraryOne $(SRCROOT)/include
+// Product module name should be same inside modulemap file to map the respective headers
+PRODUCT_MODULE_NAME = MixLibraryOne
 
 // allow modularisation to that static library
 DEFINES_MODULE = YES
 
 // refer the modulemap file from this place
-MODULEMAP_FILE = $(SRCROOT)/MixLibraryOne/module.modulemap
+MODULEMAP_FILE = $(SRCROOT)/Modules/module.modulemap
 
-// Product module name should be same inside modulemap file to map the respective headers
-PRODUCT_MODULE_NAME = MixLibraryOne
+// search the objecitve c headers & swift generated header files from "User header search path"
+USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/Modules $(SRCROOT)/include
 
 // define the objective c interface for swift files
 SWIFT_OBJC_INTERFACE_HEADER_NAME = MixLibOne-Swift.h

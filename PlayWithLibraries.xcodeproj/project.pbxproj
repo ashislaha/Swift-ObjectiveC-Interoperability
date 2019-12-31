@@ -20,6 +20,7 @@
 		551EF866238AD68900982035 /* ObjCTwoFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF85C238AD2A400982035 /* ObjCTwoFile.h */; };
 		551EF86E238C1FED00982035 /* ObjCAppTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 551EF86D238C1FED00982035 /* ObjCAppTarget.m */; };
 		551EF871238C250F00982035 /* SwiftAppTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF870238C250F00982035 /* SwiftAppTarget.swift */; };
+		552BBE5123BB3781005EDE88 /* libMixLibraryTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55929AEE23AF9E210043C6A9 /* libMixLibraryTwo.a */; };
 		553B378C23B5D6D2008CE1C0 /* MixLibOneSwiftOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AC0D023ACA7EC005FD5B7 /* MixLibOneSwiftOne.swift */; };
 		55443863238FEDD500368F89 /* ObjectiveLibraryOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */; };
 		55443864238FEDE300368F89 /* ObjCOneFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; };
@@ -42,10 +43,16 @@
 		559724BB239E9D3700688A06 /* libSwiftStaticLibraryTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */; };
 		55990FA1238E264C002059F8 /* libObjectiveLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */; };
 		55990FA2238E2652002059F8 /* libSwiftLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF83A238AAEEC00982035 /* libSwiftLibraryOne.a */; };
-		55990FA5238E2B72002059F8 /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55990FA3238E2A1B002059F8 /* module.modulemap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		552BBE4F23BB377A005EDE88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55929AED23AF9E210043C6A9;
+			remoteInfo = MixLibraryTwo;
+		};
 		555EA18123A5027F003227E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
@@ -187,7 +194,6 @@
 			files = (
 				55443864238FEDE300368F89 /* ObjCOneFileA.h in CopyFiles */,
 				55443863238FEDD500368F89 /* ObjectiveLibraryOne.h in CopyFiles */,
-				55990FA5238E2B72002059F8 /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +235,7 @@
 		5586F3EE23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibraryTwoObjCFileA.h; sourceTree = "<group>"; };
 		5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibraryTwoObjCFileA.m; sourceTree = "<group>"; };
 		5586F3F323B9A8C900AFD5E4 /* MixLibThree.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MixLibThree.xcconfig; sourceTree = "<group>"; };
+		5586F3F823B9DDAD00AFD5E4 /* MixLibTwo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MixLibTwo.xcconfig; sourceTree = "<group>"; };
 		558AC0C023AC6142005FD5B7 /* libMixLibraryOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixLibraryOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		558AC0CA23AC7D19005FD5B7 /* MixLibOne.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MixLibOne.xcconfig; sourceTree = "<group>"; };
 		558AC0CB23AC7DA8005FD5B7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -242,7 +249,6 @@
 		55929AFC23B055840043C6A9 /* MixLibraryThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibraryThree.m; sourceTree = "<group>"; };
 		559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftStaticLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticLibraryTwoFileA.swift; sourceTree = "<group>"; };
-		55990FA3238E2A1B002059F8 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552BBE5123BB3781005EDE88 /* libMixLibraryTwo.a in Frameworks */,
 				559724BB239E9D3700688A06 /* libSwiftStaticLibraryTwo.a in Frameworks */,
 				55990FA2238E2652002059F8 /* libSwiftLibraryOne.a in Frameworks */,
 				55990FA1238E264C002059F8 /* libObjectiveLibraryOne.a in Frameworks */,
@@ -291,13 +298,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		558AC0BD23AC6142005FD5B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		559724A6239E8BD400688A06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +312,7 @@
 		551EF7F9238AA57000982035 = {
 			isa = PBXGroup;
 			children = (
+				552BBE4E23BB1DE5005EDE88 /* Modules */,
 				551EF804238AA57100982035 /* PlayWithLibraries */,
 				551EF83B238AAEEC00982035 /* SwiftLibraryOne */,
 				551EF84E238AD07800982035 /* ObjectiveLibraryOne */,
@@ -383,7 +384,6 @@
 				551EF85D238AD2A400982035 /* ObjCTwoFile.m */,
 				551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */,
 				551EF860238AD4B200982035 /* ObjectiveCLibraryOne.xcconfig */,
-				55990FA3238E2A1B002059F8 /* module.modulemap */,
 			);
 			path = ObjectiveLibraryOne;
 			sourceTree = "<group>";
@@ -416,6 +416,14 @@
 				551EF809238AA57100982035 /* ViewController.swift */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		552BBE4E23BB1DE5005EDE88 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				558AC0CB23AC7DA8005FD5B7 /* module.modulemap */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		555EA17923A50257003227E8 /* ObjCLibraryTwo */ = {
@@ -456,7 +464,6 @@
 			isa = PBXGroup;
 			children = (
 				558AC0CA23AC7D19005FD5B7 /* MixLibOne.xcconfig */,
-				558AC0CB23AC7DA8005FD5B7 /* module.modulemap */,
 				558AC0D023ACA7EC005FD5B7 /* MixLibOneSwiftOne.swift */,
 				558AC0CD23ACA4C0005FD5B7 /* MixLibOneObjcFileA.h */,
 				558AC0CE23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m */,
@@ -470,6 +477,7 @@
 				55929AF023AF9E210043C6A9 /* MixLibraryTwo.swift */,
 				5586F3EE23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.h */,
 				5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */,
+				5586F3F823B9DDAD00AFD5E4 /* MixLibTwo.xcconfig */,
 			);
 			path = MixLibraryTwo;
 			sourceTree = "<group>";
@@ -527,6 +535,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				552BBE5023BB377A005EDE88 /* PBXTargetDependency */,
 				559724BA239E9D2300688A06 /* PBXTargetDependency */,
 				55990FA0238E263F002059F8 /* PBXTargetDependency */,
 				55990F9E238E263B002059F8 /* PBXTargetDependency */,
@@ -647,9 +656,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558AC0C823AC6142005FD5B7 /* Build configuration list for PBXNativeTarget "MixLibraryOne" */;
 			buildPhases = (
-				558AC0BE23AC6142005FD5B7 /* CopyFiles */,
 				558AC0BC23AC6142005FD5B7 /* Sources */,
-				558AC0BD23AC6142005FD5B7 /* Frameworks */,
+				558AC0BE23AC6142005FD5B7 /* CopyFiles */,
 				5586F3F223B8FA1D00AFD5E4 /* ShellScript */,
 			);
 			buildRules = (
@@ -681,8 +689,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55929AFF23B055840043C6A9 /* Build configuration list for PBXNativeTarget "MixLibraryThree" */;
 			buildPhases = (
-				55929AF723B055840043C6A9 /* CopyFiles */,
 				55929AF523B055840043C6A9 /* Sources */,
+				55929AF723B055840043C6A9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -785,8 +793,8 @@
 				555EA19123A52958003227E8 /* SwiftLibraryFour */,
 				555EA19F23A52CE5003227E8 /* ObjCLibraryFour */,
 				558AC0BF23AC6142005FD5B7 /* MixLibraryOne */,
-				55929AED23AF9E210043C6A9 /* MixLibraryTwo */,
 				55929AF823B055840043C6A9 /* MixLibraryThree */,
+				55929AED23AF9E210043C6A9 /* MixLibraryTwo */,
 			);
 		};
 /* End PBXProject section */
@@ -992,6 +1000,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		552BBE5023BB377A005EDE88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55929AED23AF9E210043C6A9 /* MixLibraryTwo */;
+			targetProxy = 552BBE4F23BB377A005EDE88 /* PBXContainerItemProxy */;
+		};
 		555EA18223A5027F003227E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 551EF84C238AD07800982035 /* ObjectiveLibraryOne */;
@@ -1258,7 +1271,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/ObjectiveLibraryOne/module.modulemap";
+				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1281,7 +1294,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/ObjectiveLibraryOne/module.modulemap";
+				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1425,10 +1438,10 @@
 		};
 		55929AF223AF9E210043C6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5586F3F823B9DDAD00AFD5E4 /* MixLibTwo.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "${SRCROOT}/include/";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1440,20 +1453,15 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/MixLibraryOne",
-					"$(SRCROOT)/MixLibraryThree",
-				);
 			};
 			name = Debug;
 		};
 		55929AF323AF9E210043C6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5586F3F823B9DDAD00AFD5E4 /* MixLibTwo.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "${SRCROOT}/include/";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1464,11 +1472,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/MixLibraryOne",
-					"$(SRCROOT)/MixLibraryThree",
-				);
 			};
 			name = Release;
 		};
@@ -1502,7 +1505,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = NO;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Modules",
+					"$(inherited)",
+				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1523,7 +1529,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = NO;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Modules",
+					"$(inherited)",
+				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

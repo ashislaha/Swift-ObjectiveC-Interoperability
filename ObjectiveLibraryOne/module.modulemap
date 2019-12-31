@@ -1,9 +1,0 @@
-module ObjectiveLibraryOne {
-  umbrella header "ObjectiveLibraryOne.h"
-  export *
-
-  // Define a Model module, which include an example model object class.
-  explicit module Model {
-    header "ObjCOneFileA.h"
-  }
-}
