@@ -20,7 +20,7 @@ Let's discover
 
 
 <img width="627" alt="Screenshot 2020-05-31 at 6 10 03 PM" src="https://user-images.githubusercontent.com/10649284/83352574-0d1bad80-a36a-11ea-822e-8e4ca0d50dcd.png">
-swiftc (swift compiler) contains clang (objc compiler) as a module, we do not need any <b>import <objc_module_name></b> in swift classes to use Objective c classes.
+swiftc (swift compiler) contains clang (objc compiler) as a module, we do not need any <b> import objc_module_name </b> in swift classes to use Objective c classes.
 
 ## When Both Swift and Objective C reside in different Static Library:
 
