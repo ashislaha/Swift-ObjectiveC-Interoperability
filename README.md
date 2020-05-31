@@ -1,11 +1,13 @@
 # Swift ObjectiveC Interoperability with App Target and multiple Static Libraries.
 
 Let's discover 
-1. how to create a project where both swift and objective c belongs to App Tarbet and interact with each other. 
+1. how to create a project where both swift and objective c belong to App Tarbet and interact with each other. 
 
 2. We will discuss more advanced by creating swift and objective c static library and how they can interact with each other.
 
 3. We will discuss about module.modulemap and how it is helping us to modularise the APIs.
+
+4. Let's create mix lanugage libraries where both swift and objective c code reside and use them.
 
 ## Let's take an Example where the dependencies look like:
 <img width="341" alt="Screenshot 2020-05-31 at 5 54 55 PM" src="https://user-images.githubusercontent.com/10649284/83352303-199f0680-a368-11ea-98ae-8997d72fef42.png">
