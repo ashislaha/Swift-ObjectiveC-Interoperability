@@ -24,7 +24,7 @@
 		55443863238FEDD500368F89 /* ObjectiveLibraryOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */; };
 		55443864238FEDE300368F89 /* ObjCOneFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; };
 		554438652390CC4E00368F89 /* ObjCOneFileA.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		556BA7252483CE9500B038DE /* libMixLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 558AC0C023AC6142005FD5B7 /* libMixLibraryOne.a */; };
+		556BA7282483D7E500B038DE /* libMixLibraryTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55929AEE23AF9E210043C6A9 /* libMixLibraryTwo.a */; };
 		5586F3F123B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */; };
 		558AC0CF23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 558AC0CE23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m */; };
 		558AC0D323ACACB4005FD5B7 /* MixLibOneObjcFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 558AC0CD23ACA4C0005FD5B7 /* MixLibOneObjcFileA.h */; };
@@ -37,12 +37,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		556BA7232483C99200B038DE /* PBXContainerItemProxy */ = {
+		556BA7262483D7CE00B038DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 558AC0BF23AC6142005FD5B7;
-			remoteInfo = MixLibraryOne;
+			remoteGlobalIDString = 55929AED23AF9E210043C6A9;
+			remoteInfo = MixLibraryTwo;
 		};
 		5586F3F423B9AB6500AFD5E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -165,7 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				556BA7252483CE9500B038DE /* libMixLibraryOne.a in Frameworks */,
+				556BA7282483D7E500B038DE /* libMixLibraryTwo.a in Frameworks */,
 				55990FA2238E2652002059F8 /* libSwiftLibraryOne.a in Frameworks */,
 				55990FA1238E264C002059F8 /* libObjectiveLibraryOne.a in Frameworks */,
 			);
@@ -364,7 +364,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				556BA7242483C99200B038DE /* PBXTargetDependency */,
+				556BA7272483D7CE00B038DE /* PBXTargetDependency */,
 				55990FA0238E263F002059F8 /* PBXTargetDependency */,
 				55990F9E238E263B002059F8 /* PBXTargetDependency */,
 			);
@@ -627,10 +627,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		556BA7242483C99200B038DE /* PBXTargetDependency */ = {
+		556BA7272483D7CE00B038DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 558AC0BF23AC6142005FD5B7 /* MixLibraryOne */;
-			targetProxy = 556BA7232483C99200B038DE /* PBXContainerItemProxy */;
+			target = 55929AED23AF9E210043C6A9 /* MixLibraryTwo */;
+			targetProxy = 556BA7262483D7CE00B038DE /* PBXContainerItemProxy */;
 		};
 		5586F3F523B9AB6500AFD5E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

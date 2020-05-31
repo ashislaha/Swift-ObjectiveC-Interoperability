@@ -22,7 +22,7 @@ import SwiftLibraryOne
     no need to add this into bridging header as this is coming from modulemap. just import the headerfile.
     For objective c file, do @import ObjectiveLibraryOne; Example: check ObjCAppTarget.m
  */
-//import ObjectiveLibraryOne
+import ObjectiveLibraryOne
 
 // MARK:- SwiftAppTarget
 @objc class SwiftAppTarget: NSObject {
@@ -31,8 +31,8 @@ import SwiftLibraryOne
     }
     
     public func testObjectiveCLibrary() {
-//        let fileA = ObjCOneFileA()
-//        fileA.testObjective()
+        let fileA = ObjCOneFileA()
+        fileA.testObjective()
     }
     
     public func testSwiftLibraryFunction() {
