@@ -1,19 +1,19 @@
 module ObjectiveLibraryOne {
   umbrella header "../ObjectiveLibraryOne/ObjectiveLibraryOne.h"
+  requires ios
   export *
-
-  // Define a Model module, which include an example model object class.
-  explicit module Model {
-    header "../ObjectiveLibraryOne/ObjCOneFileA.h"
-  }
 }
 
 module MixLibraryOne {
-    header "../MixLibraryOne/MixLibOneObjcFileA.h"
+    umbrella header "../MixLibraryOne/MixLibraryOne.h"
+    //header "../MixLibraryOne/MixLibOneObjcFileA.h"
+    //header "../MixLibraryOne/MixLibOneObjcFileB.h"
     requires ios
+    export *
 }
 
 module MixLibThree {
     header "../MixLibraryThree/MixLibraryThree.h"
     requires ios
+	export *
 }

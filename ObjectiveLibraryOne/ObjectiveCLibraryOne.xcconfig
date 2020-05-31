@@ -9,5 +9,6 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
+PRODUCT_MODULE_NAME = ObjectiveLibraryOne
 DEFINE_MODULES = YES
 MODULEMAP_FILE = $(SRCROOT)/Modules/module.modulemap

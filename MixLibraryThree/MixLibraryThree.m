@@ -17,6 +17,9 @@
 -(void) testMixLibThree {
     MixLibOneObjcFileA *obj = [[MixLibOneObjcFileA alloc] init];
     [obj test];
+	
+	MixLibOneObjcFileB *bObjct = [[MixLibOneObjcFileB alloc] init];
+	[bObjct testMethod];
 }
 
 -(void) exposedMethod {

@@ -18,7 +18,7 @@ PRODUCT_MODULE_NAME = MixLibThree
 // we can skip "copy files" step in "build phases" by providing the proper location of dependent (if both target belongs to same project) of user header search path
 USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/Modules $(SRCROOT)/include
 
-// allow modularisation to that static library
+// generates module as an output of that static library
 DEFINES_MODULE = YES
 
 // refer the modulemap file from Mix LibraryOne - // TODO: we can separate this out from MixLibraryOne 

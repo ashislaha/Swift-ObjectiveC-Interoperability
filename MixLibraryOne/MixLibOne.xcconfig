@@ -13,7 +13,7 @@
 // Product module name should be same inside modulemap file to map the respective headers
 PRODUCT_MODULE_NAME = MixLibraryOne
 
-// allow modularisation to that static library
+// generates Module as an output of that static library
 DEFINES_MODULE = YES
 
 // refer the modulemap file from this place
@@ -34,3 +34,8 @@ SWIFT_OBJC_INTERFACE_HEADER_NAME = MixLibOne-Swift.h
 // One important error handling: <unknown>:0: error: underlying Objective-C module 'MixLibraryOne' not found
 // project level configuration overrides the target level configuration and you will get the above error. Delete the project level configuration and it will work fine. See, it will be shown in bold in build settings, delete those bold configuration ( here MODULEMAP_FILE & USER_HEADER_SEARCH_PATHS specifically)
 OTHER_SWIFT_FLAGS = $(inherited) -import-underlying-module
+
+
+// Getting an error:
+// Command CompileSwiftSources failed with a nonzero exit code
+SWIFT_ENABLE_BATCH_MODE = NO

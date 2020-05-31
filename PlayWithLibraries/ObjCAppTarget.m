@@ -13,7 +13,7 @@
     This is <AppTarget>-Swift.h file which is used to include swift files into objective c code.
     Those swift files are belonging to App Target
  */
-#import "PlayWithLibraries-Swift.h"
+ #import "PlayWithLibraries-Swift.h"
 
 // MARK:- import swift static library
 /*
@@ -30,9 +30,6 @@
     It can be easily accessible to Swift file as well. Example: check SwiftAppTarget.swift file
  */
 @import ObjectiveLibraryOne;
-
-// MARK:- Import Swift Static Libaray Two (which internally depends on ObjectiveC static library)
-#import "SwiftStaticLibraryTwo-Swift.h"
 
 
 @implementation ObjCAppTarget
@@ -60,14 +57,5 @@
     ObjCOneFileA *obj = [[ObjCOneFileA alloc] init];
     [obj testObjective];
 }
-
-//MARK:- Swift static library two function
--(void) testSwiftStaticLibraryTwo {
-    NSLog(@"Invoke Swift Static Library Two function");
-    SwiftStaticLibraryTwoFileA *obj = [[SwiftStaticLibraryTwoFileA alloc] init];
-    [obj test];
-    [obj testObjectiveCStaticLibrary];
-}
-
 
 @end

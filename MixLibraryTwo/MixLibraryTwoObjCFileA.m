@@ -9,14 +9,14 @@
 #import "MixLibraryTwoObjCFileA.h"
 
 /*
-    import MixLibraryOne - access objective c files through module.modulemap
-*/
-@import MixLibraryOne;
-
-/*
     import objective c header file - access swift classes
  */
 #import "MixLibOne-Swift.h"
+
+/*
+    import MixLibraryOne - access objective c files through module.modulemap
+*/
+@import MixLibraryOne;
 
 /*
     access MixLibThree methods (through modulemap)

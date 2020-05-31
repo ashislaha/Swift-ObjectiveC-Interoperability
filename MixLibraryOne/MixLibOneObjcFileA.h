@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// MixLibOneObjcFileA
+/// This objective c file belongs of Mix Language Libary.
 @interface MixLibOneObjcFileA : NSObject
 -(void) test;
 @end

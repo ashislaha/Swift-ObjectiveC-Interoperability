@@ -9,4 +9,5 @@
 // this is umbrella header of Objective C Library
 
 #import "ObjCOneFileA.h"
+#import "ObjCTwoFile.h"
 

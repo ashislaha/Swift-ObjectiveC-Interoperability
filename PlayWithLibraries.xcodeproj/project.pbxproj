@@ -20,59 +20,29 @@
 		551EF866238AD68900982035 /* ObjCTwoFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF85C238AD2A400982035 /* ObjCTwoFile.h */; };
 		551EF86E238C1FED00982035 /* ObjCAppTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 551EF86D238C1FED00982035 /* ObjCAppTarget.m */; };
 		551EF871238C250F00982035 /* SwiftAppTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF870238C250F00982035 /* SwiftAppTarget.swift */; };
-		552BBE5123BB3781005EDE88 /* libMixLibraryTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55929AEE23AF9E210043C6A9 /* libMixLibraryTwo.a */; };
 		553B378C23B5D6D2008CE1C0 /* MixLibOneSwiftOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AC0D023ACA7EC005FD5B7 /* MixLibOneSwiftOne.swift */; };
 		55443863238FEDD500368F89 /* ObjectiveLibraryOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */; };
 		55443864238FEDE300368F89 /* ObjCOneFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; };
 		554438652390CC4E00368F89 /* ObjCOneFileA.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		555EA17C23A50257003227E8 /* ObjCLibraryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 555EA17B23A50257003227E8 /* ObjCLibraryTwo.m */; };
-		555EA17D23A50257003227E8 /* ObjCLibraryTwo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 555EA17A23A50257003227E8 /* ObjCLibraryTwo.h */; };
-		555EA18A23A520E3003227E8 /* SwiftStaticLibraryThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555EA18923A520E3003227E8 /* SwiftStaticLibraryThree.swift */; };
-		555EA19523A52958003227E8 /* SwiftLibraryFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555EA19423A52958003227E8 /* SwiftLibraryFour.swift */; };
-		555EA1A423A52CE5003227E8 /* ObjCLibraryFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 555EA1A323A52CE5003227E8 /* ObjCLibraryFour.m */; };
-		555EA1A523A52CE5003227E8 /* ObjCLibraryFour.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 555EA1A223A52CE5003227E8 /* ObjCLibraryFour.h */; };
-		5586F3F023B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */; };
+		556BA7252483CE9500B038DE /* libMixLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 558AC0C023AC6142005FD5B7 /* libMixLibraryOne.a */; };
 		5586F3F123B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */; };
 		558AC0CF23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 558AC0CE23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m */; };
 		558AC0D323ACACB4005FD5B7 /* MixLibOneObjcFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 558AC0CD23ACA4C0005FD5B7 /* MixLibOneObjcFileA.h */; };
 		55929AF123AF9E210043C6A9 /* MixLibraryTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55929AF023AF9E210043C6A9 /* MixLibraryTwo.swift */; };
 		55929AFD23B055840043C6A9 /* MixLibraryThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 55929AFC23B055840043C6A9 /* MixLibraryThree.m */; };
 		55929AFE23B055840043C6A9 /* MixLibraryThree.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55929AFB23B055840043C6A9 /* MixLibraryThree.h */; };
-		559724B1239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */; };
-		559724B8239E9ACA00688A06 /* libObjectiveLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */; };
-		559724BB239E9D3700688A06 /* libSwiftStaticLibraryTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */; };
 		55990FA1238E264C002059F8 /* libObjectiveLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */; };
 		55990FA2238E2652002059F8 /* libSwiftLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF83A238AAEEC00982035 /* libSwiftLibraryOne.a */; };
+		55C16CCE23CA2D6000309CBC /* MixLibOneObjcFileB.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C16CCD23CA2D6000309CBC /* MixLibOneObjcFileB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		552BBE4F23BB377A005EDE88 /* PBXContainerItemProxy */ = {
+		556BA7232483C99200B038DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55929AED23AF9E210043C6A9;
-			remoteInfo = MixLibraryTwo;
-		};
-		555EA18123A5027F003227E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 551EF84C238AD07800982035;
-			remoteInfo = ObjectiveLibraryOne;
-		};
-		555EA19A23A52B3A003227E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 555EA18623A520E3003227E8;
-			remoteInfo = SwiftStaticLibraryThree;
-		};
-		555EA1A923A52CF1003227E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 555EA18623A520E3003227E8;
-			remoteInfo = SwiftStaticLibraryThree;
+			remoteGlobalIDString = 558AC0BF23AC6142005FD5B7;
+			remoteInfo = MixLibraryOne;
 		};
 		5586F3F423B9AB6500AFD5E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -87,20 +57,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 558AC0BF23AC6142005FD5B7;
 			remoteInfo = MixLibraryOne;
-		};
-		559724B6239E9A7D00688A06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 551EF84C238AD07800982035;
-			remoteInfo = ObjectiveLibraryOne;
-		};
-		559724B9239E9D2300688A06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 559724A8239E8BD400688A06;
-			remoteInfo = SwiftStaticLibraryTwo;
 		};
 		55990F9D238E263B002059F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -128,35 +84,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		555EA17623A50257003227E8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				555EA17D23A50257003227E8 /* ObjCLibraryTwo.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		555EA19023A52958003227E8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		555EA19E23A52CE5003227E8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				555EA1A523A52CE5003227E8 /* ObjCLibraryFour.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		558AC0BE23AC6142005FD5B7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,15 +101,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				55929AFE23B055840043C6A9 /* MixLibraryThree.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		559724A7239E8BD400688A06 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,16 +140,6 @@
 		551EF86C238C1FED00982035 /* ObjCAppTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCAppTarget.h; sourceTree = "<group>"; };
 		551EF86D238C1FED00982035 /* ObjCAppTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCAppTarget.m; sourceTree = "<group>"; };
 		551EF870238C250F00982035 /* SwiftAppTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTarget.swift; sourceTree = "<group>"; };
-		555EA17823A50257003227E8 /* libObjCLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjCLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		555EA17A23A50257003227E8 /* ObjCLibraryTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCLibraryTwo.h; sourceTree = "<group>"; };
-		555EA17B23A50257003227E8 /* ObjCLibraryTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCLibraryTwo.m; sourceTree = "<group>"; };
-		555EA18723A520E3003227E8 /* libSwiftStaticLibraryThree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftStaticLibraryThree.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		555EA18923A520E3003227E8 /* SwiftStaticLibraryThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticLibraryThree.swift; sourceTree = "<group>"; };
-		555EA19223A52958003227E8 /* libSwiftLibraryFour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftLibraryFour.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		555EA19423A52958003227E8 /* SwiftLibraryFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLibraryFour.swift; sourceTree = "<group>"; };
-		555EA1A023A52CE5003227E8 /* libObjCLibraryFour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjCLibraryFour.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		555EA1A223A52CE5003227E8 /* ObjCLibraryFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCLibraryFour.h; sourceTree = "<group>"; };
-		555EA1A323A52CE5003227E8 /* ObjCLibraryFour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCLibraryFour.m; sourceTree = "<group>"; };
 		5586F3EE23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibraryTwoObjCFileA.h; sourceTree = "<group>"; };
 		5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibraryTwoObjCFileA.m; sourceTree = "<group>"; };
 		5586F3F323B9A8C900AFD5E4 /* MixLibThree.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MixLibThree.xcconfig; sourceTree = "<group>"; };
@@ -247,8 +155,9 @@
 		55929AF923B055840043C6A9 /* libMixLibraryThree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixLibraryThree.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55929AFB23B055840043C6A9 /* MixLibraryThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibraryThree.h; sourceTree = "<group>"; };
 		55929AFC23B055840043C6A9 /* MixLibraryThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibraryThree.m; sourceTree = "<group>"; };
-		559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftStaticLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticLibraryTwoFileA.swift; sourceTree = "<group>"; };
+		55C16CCC23CA2D6000309CBC /* MixLibOneObjcFileB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibOneObjcFileB.h; sourceTree = "<group>"; };
+		55C16CCD23CA2D6000309CBC /* MixLibOneObjcFileB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibOneObjcFileB.m; sourceTree = "<group>"; };
+		55D6B5A323D54FC3007E8982 /* MixLibraryOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibraryOne.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,8 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552BBE5123BB3781005EDE88 /* libMixLibraryTwo.a in Frameworks */,
-				559724BB239E9D3700688A06 /* libSwiftStaticLibraryTwo.a in Frameworks */,
+				556BA7252483CE9500B038DE /* libMixLibraryOne.a in Frameworks */,
 				55990FA2238E2652002059F8 /* libSwiftLibraryOne.a in Frameworks */,
 				55990FA1238E264C002059F8 /* libObjectiveLibraryOne.a in Frameworks */,
 			);
@@ -277,35 +185,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		555EA17523A50257003227E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		555EA18F23A52958003227E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		555EA19D23A52CE5003227E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		559724A6239E8BD400688A06 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				559724B8239E9ACA00688A06 /* libObjectiveLibraryOne.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -316,11 +195,6 @@
 				551EF804238AA57100982035 /* PlayWithLibraries */,
 				551EF83B238AAEEC00982035 /* SwiftLibraryOne */,
 				551EF84E238AD07800982035 /* ObjectiveLibraryOne */,
-				559724AA239E8BD400688A06 /* SwiftStaticLibraryTwo */,
-				555EA17923A50257003227E8 /* ObjCLibraryTwo */,
-				555EA18823A520E3003227E8 /* SwiftStaticLibraryThree */,
-				555EA19323A52958003227E8 /* SwiftLibraryFour */,
-				555EA1A123A52CE5003227E8 /* ObjCLibraryFour */,
 				558AC0C123AC6142005FD5B7 /* MixLibraryOne */,
 				55929AEF23AF9E210043C6A9 /* MixLibraryTwo */,
 				55929AFA23B055840043C6A9 /* MixLibraryThree */,
@@ -335,11 +209,6 @@
 				551EF802238AA57100982035 /* PlayWithLibraries.app */,
 				551EF83A238AAEEC00982035 /* libSwiftLibraryOne.a */,
 				551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */,
-				559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */,
-				555EA17823A50257003227E8 /* libObjCLibraryTwo.a */,
-				555EA18723A520E3003227E8 /* libSwiftStaticLibraryThree.a */,
-				555EA19223A52958003227E8 /* libSwiftLibraryFour.a */,
-				555EA1A023A52CE5003227E8 /* libObjCLibraryFour.a */,
 				558AC0C023AC6142005FD5B7 /* libMixLibraryOne.a */,
 				55929AEE23AF9E210043C6A9 /* libMixLibraryTwo.a */,
 				55929AF923B055840043C6A9 /* libMixLibraryThree.a */,
@@ -426,40 +295,6 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		555EA17923A50257003227E8 /* ObjCLibraryTwo */ = {
-			isa = PBXGroup;
-			children = (
-				555EA17A23A50257003227E8 /* ObjCLibraryTwo.h */,
-				555EA17B23A50257003227E8 /* ObjCLibraryTwo.m */,
-			);
-			path = ObjCLibraryTwo;
-			sourceTree = "<group>";
-		};
-		555EA18823A520E3003227E8 /* SwiftStaticLibraryThree */ = {
-			isa = PBXGroup;
-			children = (
-				555EA18923A520E3003227E8 /* SwiftStaticLibraryThree.swift */,
-			);
-			path = SwiftStaticLibraryThree;
-			sourceTree = "<group>";
-		};
-		555EA19323A52958003227E8 /* SwiftLibraryFour */ = {
-			isa = PBXGroup;
-			children = (
-				555EA19423A52958003227E8 /* SwiftLibraryFour.swift */,
-			);
-			path = SwiftLibraryFour;
-			sourceTree = "<group>";
-		};
-		555EA1A123A52CE5003227E8 /* ObjCLibraryFour */ = {
-			isa = PBXGroup;
-			children = (
-				555EA1A223A52CE5003227E8 /* ObjCLibraryFour.h */,
-				555EA1A323A52CE5003227E8 /* ObjCLibraryFour.m */,
-			);
-			path = ObjCLibraryFour;
-			sourceTree = "<group>";
-		};
 		558AC0C123AC6142005FD5B7 /* MixLibraryOne */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,6 +302,9 @@
 				558AC0D023ACA7EC005FD5B7 /* MixLibOneSwiftOne.swift */,
 				558AC0CD23ACA4C0005FD5B7 /* MixLibOneObjcFileA.h */,
 				558AC0CE23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m */,
+				55C16CCC23CA2D6000309CBC /* MixLibOneObjcFileB.h */,
+				55C16CCD23CA2D6000309CBC /* MixLibOneObjcFileB.m */,
+				55D6B5A323D54FC3007E8982 /* MixLibraryOne.h */,
 			);
 			path = MixLibraryOne;
 			sourceTree = "<group>";
@@ -490,14 +328,6 @@
 				5586F3F323B9A8C900AFD5E4 /* MixLibThree.xcconfig */,
 			);
 			path = MixLibraryThree;
-			sourceTree = "<group>";
-		};
-		559724AA239E8BD400688A06 /* SwiftStaticLibraryTwo */ = {
-			isa = PBXGroup;
-			children = (
-				559724B0239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift */,
-			);
-			path = SwiftStaticLibraryTwo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -530,13 +360,11 @@
 				551EF7FE238AA57000982035 /* Sources */,
 				551EF7FF238AA57000982035 /* Frameworks */,
 				551EF800238AA57000982035 /* Resources */,
-				55641F2D239BF448005A6722 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				552BBE5023BB377A005EDE88 /* PBXTargetDependency */,
-				559724BA239E9D2300688A06 /* PBXTargetDependency */,
+				556BA7242483C99200B038DE /* PBXTargetDependency */,
 				55990FA0238E263F002059F8 /* PBXTargetDependency */,
 				55990F9E238E263B002059F8 /* PBXTargetDependency */,
 			);
@@ -580,76 +408,6 @@
 			name = ObjectiveLibraryOne;
 			productName = ObjectiveLibraryOne;
 			productReference = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		555EA17723A50257003227E8 /* ObjCLibraryTwo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 555EA17E23A50257003227E8 /* Build configuration list for PBXNativeTarget "ObjCLibraryTwo" */;
-			buildPhases = (
-				555EA17423A50257003227E8 /* Sources */,
-				555EA17523A50257003227E8 /* Frameworks */,
-				555EA17623A50257003227E8 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				555EA18223A5027F003227E8 /* PBXTargetDependency */,
-			);
-			name = ObjCLibraryTwo;
-			productName = ObjCLibraryTwo;
-			productReference = 555EA17823A50257003227E8 /* libObjCLibraryTwo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 555EA18B23A520E3003227E8 /* Build configuration list for PBXNativeTarget "SwiftStaticLibraryThree" */;
-			buildPhases = (
-				555EA18323A520E3003227E8 /* Sources */,
-				555EA19923A52986003227E8 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftStaticLibraryThree;
-			productName = SwiftStaticLibraryThree;
-			productReference = 555EA18723A520E3003227E8 /* libSwiftStaticLibraryThree.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		555EA19123A52958003227E8 /* SwiftLibraryFour */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 555EA19623A52958003227E8 /* Build configuration list for PBXNativeTarget "SwiftLibraryFour" */;
-			buildPhases = (
-				555EA18E23A52958003227E8 /* Sources */,
-				555EA18F23A52958003227E8 /* Frameworks */,
-				555EA19023A52958003227E8 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				555EA19B23A52B3A003227E8 /* PBXTargetDependency */,
-			);
-			name = SwiftLibraryFour;
-			productName = SwiftLibraryFour;
-			productReference = 555EA19223A52958003227E8 /* libSwiftLibraryFour.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		555EA19F23A52CE5003227E8 /* ObjCLibraryFour */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 555EA1A623A52CE5003227E8 /* Build configuration list for PBXNativeTarget "ObjCLibraryFour" */;
-			buildPhases = (
-				555EA19C23A52CE5003227E8 /* Sources */,
-				555EA19D23A52CE5003227E8 /* Frameworks */,
-				555EA19E23A52CE5003227E8 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				555EA1AA23A52CF1003227E8 /* PBXTargetDependency */,
-			);
-			name = ObjCLibraryFour;
-			productName = ObjCLibraryFour;
-			productReference = 555EA1A023A52CE5003227E8 /* libObjCLibraryFour.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		558AC0BF23AC6142005FD5B7 /* MixLibraryOne */ = {
@@ -702,25 +460,6 @@
 			productReference = 55929AF923B055840043C6A9 /* libMixLibraryThree.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		559724A8239E8BD400688A06 /* SwiftStaticLibraryTwo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 559724AF239E8BD400688A06 /* Build configuration list for PBXNativeTarget "SwiftStaticLibraryTwo" */;
-			buildPhases = (
-				559724A5239E8BD400688A06 /* Sources */,
-				559724A6239E8BD400688A06 /* Frameworks */,
-				559724A7239E8BD400688A06 /* CopyFiles */,
-				559724B5239E8F1700688A06 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				559724B7239E9A7D00688A06 /* PBXTargetDependency */,
-			);
-			name = SwiftStaticLibraryTwo;
-			productName = SwiftStaticLibraryTwo;
-			productReference = 559724A9239E8BD400688A06 /* libSwiftStaticLibraryTwo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -742,18 +481,6 @@
 						CreatedOnToolsVersion = 11.2.1;
 						LastSwiftMigration = 1120;
 					};
-					555EA17723A50257003227E8 = {
-						CreatedOnToolsVersion = 11.3;
-					};
-					555EA18623A520E3003227E8 = {
-						CreatedOnToolsVersion = 11.3;
-					};
-					555EA19123A52958003227E8 = {
-						CreatedOnToolsVersion = 11.3;
-					};
-					555EA19F23A52CE5003227E8 = {
-						CreatedOnToolsVersion = 11.3;
-					};
 					558AC0BF23AC6142005FD5B7 = {
 						CreatedOnToolsVersion = 11.3;
 						LastSwiftMigration = 1130;
@@ -764,10 +491,6 @@
 					};
 					55929AF823B055840043C6A9 = {
 						CreatedOnToolsVersion = 11.3;
-					};
-					559724A8239E8BD400688A06 = {
-						CreatedOnToolsVersion = 11.2.1;
-						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -787,11 +510,6 @@
 				551EF801238AA57000982035 /* PlayWithLibraries */,
 				551EF839238AAEEC00982035 /* SwiftLibraryOne */,
 				551EF84C238AD07800982035 /* ObjectiveLibraryOne */,
-				559724A8239E8BD400688A06 /* SwiftStaticLibraryTwo */,
-				555EA17723A50257003227E8 /* ObjCLibraryTwo */,
-				555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */,
-				555EA19123A52958003227E8 /* SwiftLibraryFour */,
-				555EA19F23A52CE5003227E8 /* ObjCLibraryFour */,
 				558AC0BF23AC6142005FD5B7 /* MixLibraryOne */,
 				55929AF823B055840043C6A9 /* MixLibraryThree */,
 				55929AED23AF9E210043C6A9 /* MixLibraryTwo */,
@@ -813,40 +531,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		555EA19923A52986003227E8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n";
-		};
-		55641F2D239BF448005A6722 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n";
-		};
 		55641F2E239BFBB9005A6722 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -879,24 +563,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# target mode\nDEVICE_OS=\"iphoneos\"\nDEVICE_SIMULATOR=\"iphonesimulator\"\n\n# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\ntarget_simulator_dir=${target_dir}/${DEVICE_SIMULATOR}/\ntarget_device_dir=${target_dir}/${DEVICE_OS}/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\nmkdir -p ${target_simulator_dir}\nmkdir -p ${target_device_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n\n# Copy Swift modules from iphonesimulator build (if it exists) to the copied target directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PRODUCT_MODULE_NAME}.swiftmodule\"\n\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\n    cp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${target_simulator_dir}\"\nfi\n\n# copy swift modules from iPhones device build (if it exists) to the copied target directory\nDEVICE_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PRODUCT_MODULE_NAME}.swiftmodule\"\n\nif [ -d \"${DEVICE_SWIFT_MODULES_DIR}\" ]; then\n    cp -R \"${DEVICE_SWIFT_MODULES_DIR}\" \"${target_device_dir}\"\nfi\n\n";
-		};
-		559724B5239E8F1700688A06 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n";
+			shellScript = "# target mode\nDEVICE_OS=\"iphoneos\"\nDEVICE_SIMULATOR=\"iphonesimulator\"\n\n# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\ntarget_simulator_dir=${target_dir}/${DEVICE_SIMULATOR}/\ntarget_device_dir=${target_dir}/${DEVICE_OS}/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\nmkdir -p ${target_simulator_dir}\nmkdir -p ${target_device_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n\n# Copy Swift modules from iphonesimulator build (if it exists) to the copied target directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PRODUCT_MODULE_NAME}.swiftmodule\"\n\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\n   cp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${target_simulator_dir}\"\nfi\n\n# copy swift modules from iPhones device build (if it exists) to the copied target directory\nDEVICE_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PRODUCT_MODULE_NAME}.swiftmodule\"\n\nif [ -d \"${DEVICE_SWIFT_MODULES_DIR}\" ]; then\n   cp -R \"${DEVICE_SWIFT_MODULES_DIR}\" \"${target_device_dir}\"\nfi\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -930,43 +597,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		555EA17423A50257003227E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				555EA17C23A50257003227E8 /* ObjCLibraryTwo.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		555EA18323A520E3003227E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				555EA18A23A520E3003227E8 /* SwiftStaticLibraryThree.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		555EA18E23A52958003227E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				555EA19523A52958003227E8 /* SwiftLibraryFour.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		555EA19C23A52CE5003227E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				555EA1A423A52CE5003227E8 /* ObjCLibraryFour.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		558AC0BC23AC6142005FD5B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				553B378C23B5D6D2008CE1C0 /* MixLibOneSwiftOne.swift in Sources */,
+				55C16CCE23CA2D6000309CBC /* MixLibOneObjcFileB.m in Sources */,
 				558AC0CF23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -988,37 +624,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		559724A5239E8BD400688A06 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				559724B1239E8C1300688A06 /* SwiftStaticLibraryTwoFileA.swift in Sources */,
-				5586F3F023B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		552BBE5023BB377A005EDE88 /* PBXTargetDependency */ = {
+		556BA7242483C99200B038DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55929AED23AF9E210043C6A9 /* MixLibraryTwo */;
-			targetProxy = 552BBE4F23BB377A005EDE88 /* PBXContainerItemProxy */;
-		};
-		555EA18223A5027F003227E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 551EF84C238AD07800982035 /* ObjectiveLibraryOne */;
-			targetProxy = 555EA18123A5027F003227E8 /* PBXContainerItemProxy */;
-		};
-		555EA19B23A52B3A003227E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */;
-			targetProxy = 555EA19A23A52B3A003227E8 /* PBXContainerItemProxy */;
-		};
-		555EA1AA23A52CF1003227E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 555EA18623A520E3003227E8 /* SwiftStaticLibraryThree */;
-			targetProxy = 555EA1A923A52CF1003227E8 /* PBXContainerItemProxy */;
+			target = 558AC0BF23AC6142005FD5B7 /* MixLibraryOne */;
+			targetProxy = 556BA7232483C99200B038DE /* PBXContainerItemProxy */;
 		};
 		5586F3F523B9AB6500AFD5E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1029,16 +641,6 @@
 			isa = PBXTargetDependency;
 			target = 558AC0BF23AC6142005FD5B7 /* MixLibraryOne */;
 			targetProxy = 55929B0823B096D10043C6A9 /* PBXContainerItemProxy */;
-		};
-		559724B7239E9A7D00688A06 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 551EF84C238AD07800982035 /* ObjectiveLibraryOne */;
-			targetProxy = 559724B6239E9A7D00688A06 /* PBXContainerItemProxy */;
-		};
-		559724BA239E9D2300688A06 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 559724A8239E8BD400688A06 /* SwiftStaticLibraryTwo */;
-			targetProxy = 559724B9239E9D2300688A06 /* PBXContainerItemProxy */;
 		};
 		55990F9E238E263B002059F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1192,7 +794,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "${SRCROOT}/include/";
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/include/",
+					"${inherited}",
+					"${SRCROOT}/Modules/",
+				);
 				INFOPLIST_FILE = PlayWithLibraries/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1202,7 +809,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashis.laha.PlayWithLibraries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "PlayWithLibraries/PlayWithLibraries-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayWithLibraries-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "PlayWithLibraries-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1215,7 +823,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "${SRCROOT}/include/";
+				DEVELOPMENT_TEAM = AFNUCJJ56P;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/include/",
+					"${inherited}",
+					"${SRCROOT}/Modules/",
+				);
 				INFOPLIST_FILE = PlayWithLibraries/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1224,7 +837,8 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashis.laha.PlayWithLibraries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PlayWithLibraries/PlayWithLibraries-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayWithLibraries-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "PlayWithLibraries-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1299,100 +913,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		555EA17F23A50257003227E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		555EA18023A50257003227E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		555EA18C23A520E3003227E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		555EA18D23A520E3003227E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		555EA19723A52958003227E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		555EA19823A52958003227E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		555EA1A723A52CE5003227E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		555EA1A823A52CE5003227E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1499,53 +1019,6 @@
 			};
 			name = Release;
 		};
-		559724AD239E8BD400688A06 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/Modules",
-					"$(inherited)",
-				);
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		559724AE239E8BD400688A06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/Modules",
-					"$(inherited)",
-				);
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1585,42 +1058,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555EA17E23A50257003227E8 /* Build configuration list for PBXNativeTarget "ObjCLibraryTwo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				555EA17F23A50257003227E8 /* Debug */,
-				555EA18023A50257003227E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		555EA18B23A520E3003227E8 /* Build configuration list for PBXNativeTarget "SwiftStaticLibraryThree" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				555EA18C23A520E3003227E8 /* Debug */,
-				555EA18D23A520E3003227E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		555EA19623A52958003227E8 /* Build configuration list for PBXNativeTarget "SwiftLibraryFour" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				555EA19723A52958003227E8 /* Debug */,
-				555EA19823A52958003227E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		555EA1A623A52CE5003227E8 /* Build configuration list for PBXNativeTarget "ObjCLibraryFour" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				555EA1A723A52CE5003227E8 /* Debug */,
-				555EA1A823A52CE5003227E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		558AC0C823AC6142005FD5B7 /* Build configuration list for PBXNativeTarget "MixLibraryOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1644,15 +1081,6 @@
 			buildConfigurations = (
 				55929B0023B055840043C6A9 /* Debug */,
 				55929B0123B055840043C6A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		559724AF239E8BD400688A06 /* Build configuration list for PBXNativeTarget "SwiftStaticLibraryTwo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				559724AD239E8BD400688A06 /* Debug */,
-				559724AE239E8BD400688A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

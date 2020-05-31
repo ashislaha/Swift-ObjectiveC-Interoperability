@@ -14,6 +14,9 @@ import Foundation
 */
 // import MixLibraryOne
 
+/// MixLibOneSwiftOne
+/// It just contains a test() function which actually accessing Objective C file belonging to same library.
+
 @objc open class MixLibOneSwiftOne: NSObject {
     
     @objc open func test() {
@@ -22,5 +25,8 @@ import Foundation
         
         let fileA = MixLibOneObjcFileA()
         fileA.test()
+        
+        let fileB = MixLibOneObjcFileB()
+        fileB.testMethod()
     }
 }

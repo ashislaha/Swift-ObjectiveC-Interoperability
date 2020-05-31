@@ -18,9 +18,4 @@
     [obj testObjective];
 }
 
-//-(void) testDependencySwiftLibrary {
-//    SwiftStaticLibraryTwoFileA *obj = [[SwiftStaticLibraryTwoFileA alloc] init];
-//    [obj test];
-//}
-
 @end

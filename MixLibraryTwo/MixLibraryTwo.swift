@@ -24,7 +24,6 @@ import MixLibThree
 */
 import MixLibraryOne
 
-
 class MixLibraryTwo {
 
     public func test() {
