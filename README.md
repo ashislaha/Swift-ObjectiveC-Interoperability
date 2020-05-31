@@ -16,6 +16,9 @@ Let's discover
 
 <img width="525" alt="Screenshot 2019-11-27 at 8 09 35 PM" src="https://user-images.githubusercontent.com/10649284/70370837-39da9500-18f2-11ea-8378-8058162b212d.png">
 
+## Let's take an Example where the dependencies look like:
+<img width="341" alt="Screenshot 2020-05-31 at 5 54 55 PM" src="https://user-images.githubusercontent.com/10649284/83352303-199f0680-a368-11ea-98ae-8997d72fef42.png">
+
 ## Medium Story:
 
 check the medium page to get end-end understanding:
